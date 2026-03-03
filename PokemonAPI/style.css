@@ -1,0 +1,72 @@
+
+body {
+    background-image: url('pokemonforest.png');
+    background-color: #4da360; 
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pokemon-card {
+    background-color: #ffcb05; 
+    border: 5px solid #3c5aa6; 
+    border-radius: 20px;
+    padding: 40px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+h1 {
+    color: #1d2c5e;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    width: 95%;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+
+.details {
+    margin-top: 20px;
+    color: #1d2c5e;
+}
+
+#pokemonName {
+    text-transform: capitalize;
+}
+
+.attack {
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px 0;
+    text-transform: uppercase;
+}

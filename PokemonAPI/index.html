@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="script.js" defer></script>
+    <title>PokéAPI Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <section id="poke-container">
+    <main class="pokemon-card">
         <h1>PokeAPI</h1>
-        <input id="input-poke" type="text" placeholder="Digite o ID ou nome">
-        <button id="btn-poke">Enviar</button>
         
-        <div id="poke-result">
-            <h2 id="poke-nome"></h2>
-            <img id="poke-img" src="" alt="">
-            <p id="poke-ataque1"></p>
-            <p id="poke-ataque2"></p>
+        <div class="search-container">
+            <input type="text" id="pokemonInput" placeholder="Digite a id ou o nome do pokemon">
+            <button id="btnEnviar">Enviar</button>
         </div>
-    </section>
+
+        <div id="pokemonDetails" class="details">
+            <h2 id="pokemonName"></h2>
+            <div id="imageContainer"></div>
+            <p class="attack" id="attack1"></p>
+            <p class="attack" id="attack2"></p>
+        </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
